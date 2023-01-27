@@ -1,6 +1,2 @@
 hola mundo
-<<<<<<< HEAD
-mi nombre es angel buenas noches
-=======
 mi nombre es angel y hola mundo a todos los todos los   to  
->>>>>>> branch1
