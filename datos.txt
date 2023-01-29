@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-hola mundo
-mi nombre es angel y hola mundo a todos los todos los   to   jajaj
-seguiomnos chambeando con toda la actitud
-=======
 aprendiendo del sourctreee
 ya actualisamos el sisteama
 buenas tardes
->>>>>>> branch2
