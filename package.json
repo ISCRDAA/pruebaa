@@ -1,0 +1,26 @@
+{
+  "name": "pruebaa",
+  "version": "1.0.0",
+  "description": "prueba",
+  "main": "holaMundo.js",
+  "scripts": {
+    "start": "node holaMundo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xElxAGUADORX/pruebaa.git"
+  },
+  "keywords": [
+    "testing",
+    "practica"
+  ],
+  "author": "angel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xElxAGUADORX/pruebaa/issues"
+  },
+  "homepage": "https://github.com/xElxAGUADORX/pruebaa#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
