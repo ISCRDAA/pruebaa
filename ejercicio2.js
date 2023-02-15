@@ -18,4 +18,4 @@ const miarray = Array.from({length: 10}, () => Math.floor(Math.random() * 5));
             }
             busqueda(miarray, (respuesta) => {
             console.log(respuesta)
-            });
+});

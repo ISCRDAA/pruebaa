@@ -18,8 +18,6 @@
         Las funciones en javascript son objetos,un tipo especial de objetos:
         Se dice que son ciudadanos de primera clase porque pueden asignarse a un valor, y pueden pasarse como argumentos y usarse como un valor de retorno
         
-        
-        
         */
 
 
@@ -38,9 +36,11 @@
             return" la funcion ha retornado una cadena de texto";
 
         }
-        function saludar(nombre,edad){
-            console.log(``)
+        function saludar(nombre = "desconocido" ,edad= 0){
+            console.log(` Hola mi nombre es ${nombre} y tengo ${edad} años`)
         }
+        saludar("angel",7);
+        saludar();
 
         //Invocacion de funciones
         let valorDeFuncion =unaFuncionQueDevuelveValor();
@@ -48,9 +48,18 @@
 
         estoEsUnaFuncion();
 
+        funcionDeclarada();
+        //  Funciones declaradas Vs Funciones expresadas
+        function funcionDeclarada(){
+            console.log("esta es una funcion declarada  y puede invocarse en cualquier parte de nuestro codigo  incluso antes de la funcion sea declarada");
+        }
 
-
-
+        funcionExpresada();
+        //Funcion anonima
+        const funcionExpresada = function (){
+            console.log ("Esto es una funcion expresada que se le asigno como valor a una variable, si invocamos esta funcion antes de su definicion JS nos dira ....");
+        }
+      
 
     </script>
 </body>
