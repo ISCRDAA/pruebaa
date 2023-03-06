@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetos</title>
+</head>
+<h1>Curso de programacion </h1>
+<body>
+
+    <script>
+
+        let a = new String ("Hola")
+        console.log (a);
+
+        const b={}
+            console.log(b);
+
+            const c = new Object();
+            console.log (c);
+
+            /*dentro de un objeto a las variables se les va a llamar atributos y a las funciones y a las propiedades  se les llaman metodos */
+            const angel = {
+                nombre:"angel",
+                apellido:"alonso",
+                edad:24,
+                pasatiempos:["Jugar","Comer","Estudiar"],
+                soltero:true,
+                contacto:{
+                    email:"rdangellons@gmail.com",
+                    movil:"7752050635"
+                },
+                
+              decirMiNombre:function(){
+                console.log(`Hola me llamo ${this.nombre} ${this.apellido} y tengo ${this.edad}años y me puede seguir ${this.contacto.email}`);
+              }
+
+            }
+            console.log(angel);
+            console.log(angel["nombre"]);
+            console.log(angel["apellido"]);
+            console.log(angel.edad);
+            console.log(angel.pasatiempos[1]);
+            console.log(angel.contacto.email);
+            angel.decirMiNombre();
+
+            console.log(Object.keys(angel));
+            console.log(Object.values(angel));
+            console.log(angel.hasOwnProperty("nombre"));
+            console.log(angel.hasOwnProperty("nacimiento"));
+        
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

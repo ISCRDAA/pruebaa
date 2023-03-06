@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos de programacion</title>
+</head>
+<h1>Fundamentos de programacion</h1>
+<body>
+    
+
+    <script>
+        
+       
+        try {
+            console.log("En el try se agrega el codigo a evaluar")
+            noExiste;
+            console.log("segundo mensaje en el try");
+            
+        } catch (error) {
+            console.log(" Catch captura caulquier error surgido o lanzado en el try") 
+            console.log(error);           
+        }finally{
+            console.log("El bloque finally se ejecutara siempre el final de un bloque try-catch");
+
+        }
+
+        try {
+            let numero="y";
+            if(isNaN(numero)){
+                throw new Error("El caracter introducido no es un numero");
+            }
+            console.log(numero*numero);
+        } catch (error) {
+            console.log(`se produjo el sigueinte  ${error} `)
+        }
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+</body>
+</html>

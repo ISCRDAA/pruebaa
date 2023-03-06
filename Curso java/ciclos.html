@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos de programcion</title>
+</head>
+<h1>fundamentos de programacion</h1>
+<body>
+    
+
+    <script>
+
+        let contador = 0;
+
+        while (contador <10){
+            console.log("while "+ contador);
+            contador ++;
+        }
+
+        do{
+            console.log("do "+ contador);
+            contador ++;
+
+        }while(contador < 10)
+
+
+        //for(Inicializacion de la variable; condicion; decremento o incremento){
+          //  sentencias qeu ejecutara el for
+       // }
+
+        for (let i = 0; i< 10; i++) {
+          console.log("for"+i);
+            
+        }
+
+
+
+        let num =[10,20,30,40,50,60,70,80,90,100];
+
+        for(let i =0; i<num.length; i++) {
+            console.log(num[i]);
+        }
+        
+        const angel = {
+            nombre: "angel",
+            apellidos: "alonso",
+            edad: 24
+        }
+
+        for(const propiedad in angel) {
+            console.log(`key: ${propiedad}, Value: ${angel[propiedad]}`);
+        }
+        for (const elemento of num) {
+            console.log(elemento);
+            
+        }
+
+        let cadena= "hola mundo";
+        for (const elemento of cadena) {
+            console.log(elemento);
+        }
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+</body>
+</html>
